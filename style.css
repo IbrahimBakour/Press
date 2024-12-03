@@ -367,6 +367,7 @@ header .navbar {
   color: var(--primary-color);
   border-radius: var(--border-radius-m);
   background: var(--secondary-color);
+  font-size: var(--font-size-m);
   font-weight: var(--font-weight-medium);
   transition: 0.3s ease;
 }
@@ -569,6 +570,10 @@ header .navbar {
     margin: 20px 0;
     gap: 10px;
   }
+
+  .gallery-section .section-content .button {
+    font-size: var(--font-size-m);
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -600,6 +605,10 @@ header .navbar {
     flex-wrap: wrap;
     margin: 20px 0;
     gap: 10px;
+  }
+
+  .gallery-section .section-content .button {
+    font-size: var(--font-size-m);
   }
 }
 
