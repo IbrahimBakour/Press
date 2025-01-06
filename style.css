@@ -386,6 +386,71 @@ header .navbar {
 .gallery-section .section-content .boxes {
   display: flex;
 }
+
+/* contact Info */
+
+.contact-section {
+  display: flex;
+  gap: 32px;
+  padding: 50px 0 100px;
+  justify-content: center;
+}
+
+.contact-info {
+  display: flex;
+  width: 100%;
+  /* max-width: 1200px; */
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.box {
+  background: #2f3542;
+  padding: 0 20px;
+  margin: 0 10px;
+  width: calc(100% / 4 - 32px);
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.box-icon {
+  font-size: 28px;
+  background: var(--secondary-color);
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.box:hover .box-icon {
+  background: none;
+  color: var(--secondary-color);
+  transform: scale(1.6);
+}
+
+.box p {
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 0;
+  transition: 0.3s linear;
+}
+
+.box:hover p {
+  max-height: 40px;
+  opacity: 1;
+}
+
 /* Footer */
 
 .footer-section {
@@ -460,6 +525,16 @@ header .navbar {
   .menu-section .menu-list .menu-item,
   .clients-section .client-list .client-item {
     width: calc(100% / 3 - 60px);
+  }
+
+  .contact-info {
+    /* flex-direction: column; */
+    gap: 15px;
+  }
+  .box {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
   }
 }
 
@@ -579,6 +654,14 @@ header .navbar {
   .gallery-section .section-content .button {
     font-size: var(--font-size-m);
   }
+  .contact-info {
+    gap: 15px;
+  }
+  .box {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -614,6 +697,15 @@ header .navbar {
 
   .gallery-section .section-content .button {
     font-size: var(--font-size-m);
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
   }
 }
 
