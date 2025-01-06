@@ -446,9 +446,23 @@ header .navbar {
   transition: 0.3s linear;
 }
 
-.box:hover p {
-  max-height: 40px;
+.box p {
+  max-height: none;
   opacity: 1;
+  transition: none; /* Disable transition for better performance on small devices */
+}
+
+.box:hover p {
+  max-height: none;
+  opacity: 1;
+}
+
+.box-icon {
+  transform: none; /* Prevent scaling effect on small devices */
+}
+
+.box:hover .box-icon {
+  transform: none;
 }
 
 /* Footer */
@@ -535,6 +549,24 @@ header .navbar {
     width: 100%;
     max-width: 300px;
     margin: 10px 0;
+  }
+  .box p {
+    max-height: none;
+    opacity: 1;
+    transition: none; /* Disable transition for better performance on small devices */
+  }
+
+  .box:hover p {
+    max-height: none;
+    opacity: 1;
+  }
+
+  .box-icon {
+    transform: none; /* Prevent scaling effect on small devices */
+  }
+
+  .box:hover .box-icon {
+    transform: none;
   }
 }
 
@@ -657,10 +689,23 @@ header .navbar {
   .contact-info {
     gap: 15px;
   }
-  .box {
-    width: 100%;
-    max-width: 300px;
-    margin: 10px 0;
+  .box p {
+    max-height: none;
+    opacity: 1;
+    transition: none; /* Disable transition for better performance on small devices */
+  }
+
+  .box:hover p {
+    max-height: none;
+    opacity: 1;
+  }
+
+  .box-icon {
+    transform: none; /* Prevent scaling effect on small devices */
+  }
+
+  .box:hover .box-icon {
+    transform: none;
   }
 }
 
@@ -702,10 +747,23 @@ header .navbar {
   .contact-info {
     flex-direction: column;
   }
-  .box {
-    width: 100%;
-    max-width: 300px;
-    margin: 10px 0;
+  .box p {
+    max-height: none;
+    opacity: 1;
+    transition: none; /* Disable transition for better performance on small devices */
+  }
+
+  .box:hover p {
+    max-height: none;
+    opacity: 1;
+  }
+
+  .box-icon {
+    transform: none; /* Prevent scaling effect on small devices */
+  }
+
+  .box:hover .box-icon {
+    transform: none;
   }
 }
 
