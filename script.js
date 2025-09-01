@@ -74,3 +74,20 @@ const swiper = new Swiper(".slider-wrapper", {
     },
   },
 });
+
+// Initialize Hero Swiper
+const heroSwiper = new Swiper(".heroSwiper", {
+  loop: true,
+  autoplay: {
+    delay: 2000, // Autoplay every 2 seconds
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".heroSwiper .swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-navigation-thumbs .swiper-button-next",
+    prevEl: ".swiper-navigation-thumbs .swiper-button-prev",
+  },
+});
