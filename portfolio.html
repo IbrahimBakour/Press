@@ -1,11 +1,44 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="author" content="مطابع الرياض" />
+    <meta name="language" content="ar" />
+    <meta name="geo.region" content="SA" />
+    <meta name="geo.placename" content="Riyadh" />
+    
     <title>أعمالنا - مطابع الرياض</title>
+    <meta
+      name="description"
+      content="تصفح أعمال مطابع الرياض المميزة: اكواب، بوكسات، ستيكرات، لوحات، اكياس، ومطبوعات متنوعة. شاهد جودة طباعتنا الاحترافية في الرياض."
+    />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://www.printriyadh.com/portfolio.html" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.printriyadh.com/portfolio.html" />
+    <meta property="og:title" content="أعمالنا - مطابع الرياض" />
+    <meta property="og:description" content="تصفح أعمال مطابع الرياض المميزة: اكواب، بوكسات، ستيكرات، لوحات، اكياس، ومطبوعات متنوعة." />
+    <meta property="og:image" content="https://www.printriyadh.com/images/شعار2.png" />
+    <meta property="og:locale" content="ar_SA" />
+    <meta property="og:site_name" content="مطابع الرياض" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.printriyadh.com/portfolio.html" />
+    <meta property="twitter:title" content="أعمالنا - مطابع الرياض" />
+    <meta property="twitter:description" content="تصفح أعمال مطابع الرياض المميزة: اكواب، بوكسات، ستيكرات، لوحات، اكياس، ومطبوعات متنوعة." />
+    <meta property="twitter:image" content="https://www.printriyadh.com/images/شعار2.png" />
+    
     <link rel="icon" type="image/x-icon" href="images/شعار2.png" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="apple-touch-icon" href="images/شعار2.png" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,706 +49,741 @@
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Mada:wght@200..900&family=Noto+Kufi+Arabic:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "أعمال مطابع الرياض",
+      "description": "مجموعة من الأعمال المميزة في مجال الطباعة والتغليف",
+      "creator": {
+        "@type": "Organization",
+        "name": "مطابع الرياض"
+      },
+      "datePublished": "2025-01-10",
+      "image": "https://www.printriyadh.com/images/شعار2.png"
+    }
+    </script>
   </head>
 
-  <header>
-    <nav class="navbar section-content">
-      <a href="/index.html" class="nav-logo">
-        <h2 class="logo-text">مطابع الرياض</h2>
-      </a>
-
-      <ul class="nav-menu">
-        <button id="menu-close-button" class="fas fa-times"></button>
-        <li class="nav-item">
-          <a href="/index.html" class="nav-link">الرئيسية</a>
-        </li>
-        <li class="nav-item">
-          <a href="/about.html" class="nav-link">من نحن</a>
-        </li>
-        <li class="nav-item">
-          <a href="/clients.html" class="nav-link">عملائنا</a>
-        </li>
-        <li class="nav-item">
-          <a href="/services.html" class="nav-link">خدماتنا</a>
-        </li>
-        <li class="nav-item">
-          <a href="/testimonials.html" class="nav-link">آراء العملاء</a>
-        </li>
-        <li class="nav-item">
-          <a href="/portfolio.html" class="nav-link">أعمالنا</a>
-        </li>
-        <li class="nav-item">
-          <a href="/contact.html" class="nav-link">تواصل معنا</a>
-        </li>
-      </ul>
-      <button id="menu-open-button" class="fas fa-bars"></button>
-    </nav>
-  </header>
-
   <body>
-    <section class="gallery-section" id="portfolio">
-      <h2 class="section-title">أعمالنا</h2>
-      <div class="section-content">
-        <div class="buttons">
-          <button class="button active" data-name="." aria-label="مطبوعات">
-            أعمال متنوعة
-          </button>
-          <button
-            class="button cups"
-            name="cups"
-            data-name="cups"
-            aria-label="اكواب مطبوعة"
-          >
-            أكواب
-          </button>
-          <button
-            class="button boxes"
-            data-name="boxes"
-            aria-label="بوكسات مطبوعة"
-          >
-            بوكسات
-          </button>
-          <button class="button add" data-name="add" aria-label="دعاية واعلان">
-            دعاية وإعلان
-          </button>
-          <button
-            class="button bags"
-            data-name="bags"
-            aria-label="اكياس مطبوعة"
-          >
-            أكياس
-          </button>
-          <button
-            class="button stickers"
-            data-name="stickers"
-            aria-label="ستيكرات مطبوعة"
-          >
-            ستيكرات
-          </button>
-          <button
-            class="button painting"
-            data-name="painting"
-            aria-label="لوحات مكاتب محلات"
-          >
-            لوحات
-          </button>
-        </div>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar section-content">
+        <a href="index.html" class="nav-logo">
+          <h2 class="logo-text">مطابع الرياض</h2>
+        </a>
 
-        <div class="card" data-name=".">
-          <ul class="gallery-list">
-            <li class="gallery-item">
-              <img
-                src="images/اكواب/اكواب ورق.jpg"
-                alt="أكواب ورق"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/بوب اب.jpg"
-                alt="رول بوب اب"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/حفر ليزر.jpg"
-                alt="حفر ليزر"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/رولات ورقية.jpg"
-                alt="رولات ورقية"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/ستيكرات جدران.jpg"
-                alt="ستيكرات جدران"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة اظرف.jpg"
-                alt="طباعة اظرف"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة اعلام.jpg"
-                alt="طباعة اعلام"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكواب/اكواب عصير.jpg"
-                alt="اكواب عصير"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة اقلام.jpg"
-                alt="طباعة اقلام"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة اكواب.jpg"
-                alt="طباعة اكواب"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة اكياس قهوة.jpg"
-                alt="طباعة اكياس قهوة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة بروشات.jpg"
-                alt="طباعة بروشات"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة بوكسات.jpg"
-                alt="طباعة بوكسات"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة تيشيرت.jpg"
-                alt="طباعة تيشيرت"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة كاب.jpg"
-                alt="طباعة كاب"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكواب/اكواب قهوة.jpg"
-                alt="اكواب قهوة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة ورق سندويش.jpg"
-                alt="طباعة ورق سندويش"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/لوحات اعلانية.jpg"
-                alt="لوحات اعلانية"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/مستلزمات مكاتب.jpg"
-                alt="مستلزمات مكاتب"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة ورق الزبدة.jpg"
-                alt="طباعة ورق الزبدة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة ورقيات.jpg"
-                alt="طباعة ورقية"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة كروت شخصية.png"
-                alt="طباعة كروت شخصية"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/درع مطبوع.jpg"
-                alt="درع مطبوع"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/مطبوعات/طباعة بصمة.jpg"
-                alt="طباعة بصمة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-          </ul>
-        </div>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">من نحن</a>
+          </li>
+          <li class="nav-item">
+            <a href="clients.html" class="nav-link">عملائنا</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">خدماتنا</a>
+          </li>
+          <li class="nav-item">
+            <a href="testimonials.html" class="nav-link">آراء العملاء</a>
+          </li>
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">أعمالنا</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">تواصل معنا</a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+    <!-- Header / Navbar -->
 
-        <div class="card hide" data-name="cups">
-          <ul class="gallery-list">
-            <li class="gallery-item">
-              <img
-                src="images/اكواب/اكواب ورق.jpg"
-                alt="أكواب ورق"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكواب/كوب ورقي.jpg"
-                alt="كوب ورقي"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكواب/طباعة اكواب.jpg"
-                alt="طباعة اكواب"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكواب/اكواب قهوة.jpg"
-                alt="اكواب قهوة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكواب/اكواب عصير.jpg"
-                alt="اكواب عصير"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img src="images/اكواب/كوب.jpg" alt="كوب" class="gallery-image" />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكواب/اكواب.jpg"
-                alt="اكواب"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكواب/اكواب مطبوعة.jpg"
-                alt="اكواب مطبوعة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="card hide" data-name="boxes">
-          <ul class="gallery-list">
-            <li class="gallery-item">
-              <img
-                src="images/بوكسات/بوكسات هدايا.jpg"
-                alt="بوكسات هدايا"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/بوكسات/بوكسات حلا.jpg"
-                alt="بوكسات حلا"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/بوكسات/بوكسات قهوة.jpg"
-                alt="بوكسات قهوة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/بوكسات/بوكسات عطور.jpg"
-                alt="بوكسات عطور"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/بوكسات/بوكسات مطبوعة.jpg"
-                alt="بوكسات مطبوعة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/بوكسات/بوكسات اكل.jpg"
-                alt="بوكسات اكل"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/بوكسات/بوكسات تخزين.jpg"
-                alt="بوكسات تخزين"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/بوكسات/بوكسات حلا مطبوعة.jpg"
-                alt="بوكسات مطبوعة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="card hide" data-name="add">
-          <ul class="gallery-list">
-            <li class="gallery-item">
-              <img
-                src="images/دعاية واعلان/شرايط قماش.jpg"
-                alt="شرايط قماش"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/دعاية واعلان/رول اب ستاند.jpg"
-                alt="رول اب ستاند"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/دعاية واعلان/رولات قماش.jpg"
-                alt="رولات قماش"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/دعاية واعلان/درع تكريم.jpg"
-                alt="درع تكريم"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/دعاية واعلان/تنظيم معارض ومؤتمرات.jpg"
-                alt="تنظيم معارض ومؤتمرات "
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/دعاية واعلان/طباعة على الجلد.jpg"
-                alt="طباعة على الجلد"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/دعاية واعلان/بروشات اليوم الوطني.jpg"
-                alt="بروشات اليوم الوطني"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/دعاية واعلان/بروش.png"
-                alt="بروش"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="card hide" data-name="bags">
-          <ul class="gallery-list">
-            <li class="gallery-item">
-              <img
-                src="images/اكياس/اكياس هدايا.jpg"
-                alt="اكياس هدايا"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكياس/اكياس بلاستيك.jpg"
-                alt="اكياس بلاستيك"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكياس/اكياس قهوة.jpg"
-                alt="اكياس قهوة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكياس/اكياس قماش.jpg"
-                alt="اكياس قماش"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكياس/اكياس مطبوعة.jpg"
-                alt="اكياس مطبوعة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكياس/اكياس مطعم.jpg"
-                alt="اكياس مطعم"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكياس/اكياس ورق.jpg"
-                alt="اكياس ورق"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/اكياس/اكياس بالجملة.jpg"
-                alt="اكياس بالجملة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="card hide" data-name="stickers">
-          <ul class="gallery-list">
-            <li class="gallery-item">
-              <img
-                src="images/ستيكرات/ستيكرات لاصقة.jpg"
-                alt="ستيكرات لاصقة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/ستيكرات/ستيكر شفاف.jpg"
-                alt="ستيكر شفاف"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/ستيكرات/ستيكر اليوم الوطني.jpg"
-                alt="ستيكر اليوم الوطني"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/ستيكرات/ستيكر تخرج.jpg"
-                alt="ستيكر تخرج"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/ستيكرات/ستيكرات مطبوعة.jpg"
-                alt="ستيكرات مطبوعة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/ستيكرات/ستيكرات قهوة.jpg"
-                alt="ستيكرات قهوة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/ستيكرات/ستيكرات عصير.jpg"
-                alt="ستيكرات عصير"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/ستيكرات/ستيكرات جدارية.jpg"
-                alt="ستيكرات جدارية"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="card hide" data-name="painting">
-          <ul class="gallery-list">
-            <li class="gallery-item">
-              <img
-                src="images/لوحات/لوحات جدارية.jpg"
-                alt="لوحات جدارية"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/لوحات/لوحات شعار.jpg"
-                alt="لوحات شعار"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/لوحات/لوحات مكتبية.jpg"
-                alt="لوحات مكتبية"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/لوحات/لوحات مكتب.jpg"
-                alt="لوحات مكتب"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/لوحات/احرف ضوئية.jpg"
-                alt="احرف ضوئية"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/لوحات/لوحة محل.jpg"
-                alt="لوحة محل"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/لوحات/احرف مضيئة.jpg"
-                alt="احرف مضيئة"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-            <li class="gallery-item">
-              <img
-                src="images/لوحات/تركيب لوحة محل.jpg"
-                alt="تركيب لوحة محل"
-                class="gallery-image"
-              />
-              <div class="card-keywords"></div>
-            </li>
-          </ul>
-        </div>
+    <main>
+      <div id="whatsapp">
+        <a
+          href="https://wa.me/966559153254"
+          target="_blank"
+          id="toggle1"
+          class="wtsapp"
+          aria-label="تواصل معنا عبر واتساب"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
       </div>
-    </section>
+      <section class="gallery-section" id="portfolio">
+        <h1 class="section-title">أعمالنا</h1>
+        <div class="section-content">
+          <div class="buttons">
+            <button class="button active" data-name="." aria-label="مطبوعات">
+              أعمال متنوعة
+            </button>
+            <button
+              class="button cups"
+              name="cups"
+              data-name="cups"
+              aria-label="اكواب مطبوعة"
+            >
+              أكواب
+            </button>
+            <button
+              class="button boxes"
+              data-name="boxes"
+              aria-label="بوكسات مطبوعة"
+            >
+              بوكسات
+            </button>
+            <button
+              class="button add"
+              data-name="add"
+              aria-label="دعاية واعلان"
+            >
+              دعاية وإعلان
+            </button>
+            <button
+              class="button bags"
+              data-name="bags"
+              aria-label="اكياس مطبوعة"
+            >
+              أكياس
+            </button>
+            <button
+              class="button stickers"
+              data-name="stickers"
+              aria-label="ستيكرات مطبوعة"
+            >
+              ستيكرات
+            </button>
+            <button
+              class="button painting"
+              data-name="painting"
+              aria-label="لوحات مكاتب محلات"
+            >
+              لوحات
+            </button>
+          </div>
 
-    <footer class="footer-section">
-      <div class="section-content">
-        <p class="copyright-text">© 2025 مطابع الرياض</p>
-        <p class="phone"><i class="icon fas fa-phone"></i>055-915 3254</p>
-      </div>
-    </footer>
+          <div class="card" data-name=".">
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <img
+                  src="images/اكواب/اكواب ورق.jpg"
+                  alt="اكواب ورقية مطبوعة - خدمات الطباعة في الرياض"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/بوب اب.jpg"
+                  alt="رول بوب اب مطبوع - خدمات الدعاية والإعلان"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/حفر ليزر.jpg"
+                  alt="حفر ليزر على الخامات - خدمات الطباعة المتقدمة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/رولات ورقية.jpg"
+                  alt="رولات ورقية مطبوعة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/ستيكرات جدران.jpg"
+                  alt="ستيكرات جدران مطبوعة - خدمات الديكور والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة اظرف.jpg"
+                  alt="طباعة اظرف مخصصة - خدمات الطباعة المكتبية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة اعلام.jpg"
+                  alt="طباعة اعلام وشارات - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكواب/اكواب عصير.jpg"
+                  alt="اكواب عصير مطبوعة - خدمات الطباعة على الأكواب"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة اقلام.jpg"
+                  alt="طباعة اقلام مخصصة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة اكواب.jpg"
+                  alt="طباعة اكواب مخصصة - خدمات الطباعة على الخامات"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة اكياس قهوة.jpg"
+                  alt="طباعة اكياس قهوة مخصصة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة بروشات.jpg"
+                  alt="طباعة بروشات مخصصة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة بوكسات.jpg"
+                  alt="طباعة بوكسات وتغليف - خدمات الطباعة والتغليف"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة تيشيرت.jpg"
+                  alt="طباعة تيشيرت مخصص - خدمات الطباعة على الملابس"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة كاب.jpg"
+                  alt="طباعة كاب مخصص - خدمات الطباعة على القبعات"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكواب/اكواب قهوة.jpg"
+                  alt="اكواب قهوة مطبوعة - خدمات الطباعة على الأكواب"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة ورق سندويش.jpg"
+                  alt="طباعة ورق سندويش مخصص - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/لوحات اعلانية.jpg"
+                  alt="لوحات اعلانية مطبوعة - خدمات الدعاية والإعلان"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/مستلزمات مكاتب.jpg"
+                  alt="مستلزمات مكاتب مطبوعة - خدمات الطباعة المكتبية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة ورق الزبدة.jpg"
+                  alt="طباعة ورق الزبدة مخصص - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة ورقيات.jpg"
+                  alt="طباعة ورقيات مخصصة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة كروت شخصية.png"
+                  alt="طباعة كروت شخصية احترافية - خدمات الطباعة المكتبية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/درع مطبوع.jpg"
+                  alt="درع مطبوع مخصص - خدمات الطباعة على الخامات"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/مطبوعات/طباعة بصمة.jpg"
+                  alt="طباعة بصمة مخصصة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card hide" data-name="cups">
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <img
+                  src="images/اكواب/اكواب ورق.jpg"
+                  alt="اكواب ورقية مطبوعة - خدمات الطباعة في الرياض"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكواب/كوب ورقي.jpg"
+                  alt="كوب ورقي مطبوع - خدمات الطباعة على الأكواب"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكواب/طباعة اكواب.jpg"
+                  alt="طباعة اكواب مخصصة - خدمات الطباعة على الخامات"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكواب/اكواب قهوة.jpg"
+                  alt="اكواب قهوة مطبوعة - خدمات الطباعة على الأكواب"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكواب/اكواب عصير.jpg"
+                  alt="اكواب عصير مطبوعة - خدمات الطباعة على الأكواب"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img src="images/اكواب/كوب.jpg" alt="كوب مطبوع مخصص - خدمات الطباعة على الأكواب" class="gallery-image" />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكواب/اكواب.jpg"
+                  alt="اكواب مطبوعة مخصصة - خدمات الطباعة في الرياض"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكواب/اكواب مطبوعة.jpg"
+                  alt="اكواب مطبوعة مخصصة - خدمات الطباعة على الأكواب"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card hide" data-name="boxes">
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <img
+                  src="images/بوكسات/بوكسات هدايا.jpg"
+                  alt="بوكسات هدايا مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/بوكسات/بوكسات حلا.jpg"
+                  alt="بوكسات حلا مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/بوكسات/بوكسات قهوة.jpg"
+                  alt="بوكسات قهوة مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/بوكسات/بوكسات عطور.jpg"
+                  alt="بوكسات عطور مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/بوكسات/بوكسات مطبوعة.jpg"
+                  alt="بوكسات مطبوعة مخصصة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/بوكسات/بوكسات اكل.jpg"
+                  alt="بوكسات اكل مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/بوكسات/بوكسات تخزين.jpg"
+                  alt="بوكسات تخزين مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/بوكسات/بوكسات حلا مطبوعة.jpg"
+                  alt="بوكسات حلا مطبوعة مخصصة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card hide" data-name="add">
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <img
+                  src="images/دعاية واعلان/شرايط قماش.jpg"
+                  alt="شرايط قماش مطبوعة - خدمات الدعاية والإعلان"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/دعاية واعلان/رول اب ستاند.jpg"
+                  alt="رول اب ستاند مطبوع - خدمات الدعاية والإعلان"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/دعاية واعلان/رولات قماش.jpg"
+                  alt="رولات قماش مطبوعة - خدمات الدعاية والإعلان"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/دعاية واعلان/درع تكريم.jpg"
+                  alt="درع تكريم مطبوع - خدمات الطباعة على الخامات"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/دعاية واعلان/تنظيم معارض ومؤتمرات.jpg"
+                  alt="تنظيم معارض ومؤتمرات - خدمات الدعاية والإعلان"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/دعاية واعلان/طباعة على الجلد.jpg"
+                  alt="طباعة على الجلد - خدمات الطباعة المتقدمة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/دعاية واعلان/بروشات اليوم الوطني.jpg"
+                  alt="بروشات اليوم الوطني مطبوعة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/دعاية واعلان/بروش.png"
+                  alt="بروش مطبوع مخصص - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card hide" data-name="bags">
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <img
+                  src="images/اكياس/اكياس هدايا.jpg"
+                  alt="اكياس هدايا مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكياس/اكياس بلاستيك.jpg"
+                  alt="اكياس بلاستيك مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكياس/اكياس قهوة.jpg"
+                  alt="اكياس قهوة مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكياس/اكياس قماش.jpg"
+                  alt="اكياس قماش مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكياس/اكياس مطبوعة.jpg"
+                  alt="اكياس مطبوعة مخصصة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكياس/اكياس مطعم.jpg"
+                  alt="اكياس مطعم مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكياس/اكياس ورق.jpg"
+                  alt="اكياس ورق مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/اكياس/اكياس بالجملة.jpg"
+                  alt="اكياس بالجملة مطبوعة - خدمات التغليف والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card hide" data-name="stickers">
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <img
+                  src="images/ستيكرات/ستيكرات لاصقة.jpg"
+                  alt="ستيكرات لاصقة مطبوعة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/ستيكرات/ستيكر شفاف.jpg"
+                  alt="ستيكر شفاف مطبوع - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/ستيكرات/ستيكر اليوم الوطني.jpg"
+                  alt="ستيكر اليوم الوطني مطبوع - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/ستيكرات/ستيكر تخرج.jpg"
+                  alt="ستيكر تخرج مطبوع - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/ستيكرات/ستيكرات مطبوعة.jpg"
+                  alt="ستيكرات مطبوعة مخصصة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/ستيكرات/ستيكرات قهوة.jpg"
+                  alt="ستيكرات قهوة مطبوعة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/ستيكرات/ستيكرات عصير.jpg"
+                  alt="ستيكرات عصير مطبوعة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/ستيكرات/ستيكرات جدارية.jpg"
+                  alt="ستيكرات جدارية مطبوعة - خدمات الديكور والطباعة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card hide" data-name="painting">
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <img
+                  src="images/لوحات/لوحات جدارية.jpg"
+                  alt="لوحات جدارية مطبوعة - خدمات الطباعة والديكور"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/لوحات/لوحات شعار.jpg"
+                  alt="لوحات شعار مطبوعة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/لوحات/لوحات مكتبية.jpg"
+                  alt="لوحات مكتبية مطبوعة - خدمات الطباعة المكتبية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/لوحات/لوحات مكتب.jpg"
+                  alt="لوحات مكتب مطبوعة - خدمات الطباعة المكتبية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/لوحات/احرف ضوئية.jpg"
+                  alt="احرف ضوئية مطبوعة - خدمات الطباعة المتقدمة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/لوحات/لوحة محل.jpg"
+                  alt="لوحة محل مطبوعة - خدمات الطباعة التجارية"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/لوحات/احرف مضيئة.jpg"
+                  alt="احرف مضيئة مطبوعة - خدمات الطباعة المتقدمة"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="images/لوحات/تركيب لوحة محل.jpg"
+                  alt="تركيب لوحة محل - خدمات الطباعة والتركيب"
+                  class="gallery-image"
+                />
+                <div class="card-keywords"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2025 مطابع الرياض</p>
+          <p class="phone"><i class="icon fas fa-phone"></i>055-915 3254</p>
+        </div>
+      </footer>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>

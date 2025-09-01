@@ -1,11 +1,44 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="author" content="مطابع الرياض" />
+    <meta name="language" content="ar" />
+    <meta name="geo.region" content="SA" />
+    <meta name="geo.placename" content="Riyadh" />
+    
     <title>خدماتنا - مطابع الرياض</title>
+    <meta
+      name="description"
+      content="اكتشف خدمات مطابع الرياض الشاملة: طباعة اكواب، ستيكرات، بوكسات، لوحات، اكياس، وورقيات. خدمات طباعة احترافية عالية الجودة في الرياض."
+    />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://www.printriyadh.com/services.html" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.printriyadh.com/services.html" />
+    <meta property="og:title" content="خدماتنا - مطابع الرياض" />
+    <meta property="og:description" content="اكتشف خدمات مطابع الرياض الشاملة: طباعة اكواب، ستيكرات، بوكسات، لوحات، اكياس، وورقيات." />
+    <meta property="og:image" content="https://www.printriyadh.com/images/شعار2.png" />
+    <meta property="og:locale" content="ar_SA" />
+    <meta property="og:site_name" content="مطابع الرياض" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.printriyadh.com/services.html" />
+    <meta property="twitter:title" content="خدماتنا - مطابع الرياض" />
+    <meta property="twitter:description" content="اكتشف خدمات مطابع الرياض الشاملة: طباعة اكواب، ستيكرات، بوكسات، لوحات، اكياس، وورقيات." />
+    <meta property="twitter:image" content="https://www.printriyadh.com/images/شعار2.png" />
+    
     <link rel="icon" type="image/x-icon" href="images/شعار2.png" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="apple-touch-icon" href="images/شعار2.png" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,127 +49,173 @@
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Mada:wght@200..900&family=Noto+Kufi+Arabic:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "خدمات الطباعة والتغليف",
+      "description": "خدمات طباعة احترافية شاملة في الرياض",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "مطابع الرياض",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Riyadh",
+          "addressCountry": "SA"
+        }
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Saudi Arabia"
+      },
+      "serviceType": "Printing and Packaging Services",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "SAR",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
   </head>
 
-  <header>
-    <nav class="navbar section-content">
-      <a href="/index.html" class="nav-logo">
-        <h2 class="logo-text">مطابع الرياض</h2>
-      </a>
-
-      <ul class="nav-menu">
-        <button id="menu-close-button" class="fas fa-times"></button>
-        <li class="nav-item">
-          <a href="/index.html" class="nav-link">الرئيسية</a>
-        </li>
-        <li class="nav-item">
-          <a href="/about.html" class="nav-link">من نحن</a>
-        </li>
-        <li class="nav-item">
-          <a href="/clients.html" class="nav-link">عملائنا</a>
-        </li>
-        <li class="nav-item">
-          <a href="/services.html" class="nav-link">خدماتنا</a>
-        </li>
-        <li class="nav-item">
-          <a href="/testimonials.html" class="nav-link">آراء العملاء</a>
-        </li>
-        <li class="nav-item">
-          <a href="/portfolio.html" class="nav-link">أعمالنا</a>
-        </li>
-        <li class="nav-item">
-          <a href="/contact.html" class="nav-link">تواصل معنا</a>
-        </li>
-      </ul>
-      <button id="menu-open-button" class="fas fa-bars"></button>
-    </nav>
-  </header>
   <body>
-    <!-- Service -->
-    <section class="menu-section" id="services">
-      <h2 class="section-title">بعض خدماتنا</h2>
-      <div class="section-content">
-        <ul class="menu-list">
-          <li class="menu-item">
-            <h3 class="name">الأكواب</h3>
-            <p class="text">
-              اكواب طباعة مخصصة بجودة عالية وتصاميم مبتكرة تناسب المناسبات
-              والعلامات التجارية. اختر أكوابك المميزة لإضافة طابع خاص إلى تجربتك
-            </p>
-            <img
-              src="images/اكواب/اكواب ورق.jpg"
-              alt="طباعة اكواب ورقية"
-              class="menu-image"
-            />
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar section-content">
+        <a href="index.html" class="nav-logo">
+          <h2 class="logo-text">مطابع الرياض</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">الرئيسية</a>
           </li>
-          <li class="menu-item">
-            <h3 class="name">الستيكرات</h3>
-            <p class="text">
-              ملصقات مخصصة بجودة طباعة استثنائية وتصاميم فريدة تناسب جميع
-              الاستخدامات. سواء كنت تبحث عن ملصقات تجارية أو شخصية، نقدم لك الحل
-              الأمثل
-            </p>
-            <img
-              src="images/ستيكرات/ستيكرات مطبوعة.jpg"
-              alt="طباعة ستيكرات لاصقة"
-              class="menu-image"
-            />
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">من نحن</a>
           </li>
-          <li class="menu-item">
-            <h3 class="name">البوكسات</h3>
-            <p class="text">
-              اكتشف تشكيلتنا المتنوعة من العلب المصممة بجودة عالية وتناسب جميع
-              الاستخدامات. نقدم علب تغليف مبتكرة بأحجام وتصاميم مختلفة تناسب
-              احتياجاتك التجارية والشخصية
-            </p>
-            <img
-              src="images/بوكسات/بوكسات مطبوعة.jpg"
-              alt="طباعة بوكسات"
-              class="menu-image"
-            />
+          <li class="nav-item">
+            <a href="clients.html" class="nav-link">عملائنا</a>
           </li>
-          <li class="menu-item">
-            <h3 class="name">اللوحات</h3>
-            <p class="text">
-              لوحات فنية وإعلانية بجودة طباعة فاخرة وتصاميم مخصصة. مثالية
-              للديكور الداخلي أو الإعلانات التجارية، مع ضمان تفاصيل دقيقة وألوان
-              نابضة بالحياة
-            </p>
-            <img
-              src="images/لوحات/لوحات مكتب.jpg"
-              alt="لوحات مكتبية"
-              class="menu-image"
-            />
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">خدماتنا</a>
           </li>
-          <li class="menu-item">
-            <h3 class="name">الأكياس</h3>
-            <p class="text">
-              اكياس طباعة مميزة بجودة عالية وتصاميم جذابة تناسب جميع أنواع
-              المنتجات. نوفر أكياس ورقية وبلاستيكية تناسب احتياجاتك من التغليف
-              والترويج
-            </p>
-            <img
-              src="images/اكياس/اكياس مطبوعة.jpg"
-              alt="طباعة اكياس"
-              class="menu-image"
-            />
+          <li class="nav-item">
+            <a href="testimonials.html" class="nav-link">آراء العملاء</a>
           </li>
-          <li class="menu-item">
-            <h3 class="name">الورقيات</h3>
-            <p class="text">
-              اوراق طباعة بجودة فائقة تناسب جميع احتياجات الطباعة والتغليف. نوفر
-              أنواع مختلفة من الأوراق بأحجام وتصاميم مخصصة لتلبية متطلباتك
-            </p>
-            <img
-              src="images/مطبوعات/طباعة كروت شخصية.png"
-              alt="مطبوعات ورقية"
-              class="menu-image"
-            />
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">أعمالنا</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">تواصل معنا</a>
           </li>
         </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+    <!-- Header / Navbar -->
+
+    <main>
+      <div id="whatsapp">
+        <a
+          href="https://wa.me/966559153254"
+          target="_blank"
+          id="toggle1"
+          class="wtsapp"
+          aria-label="تواصل معنا عبر واتساب"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
       </div>
-    </section>
-    <!-- Service -->
+      <!-- Service -->
+      <section class="menu-section" id="services">
+        <h1 class="section-title">خدماتنا</h1>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <h2 class="name">الأكواب</h2>
+              <p class="text">
+                اكواب طباعة مخصصة بجودة عالية وتصاميم مبتكرة تناسب المناسبات
+                والعلامات التجارية. اختر أكوابك المميزة لإضافة طابع خاص إلى تجربتك
+              </p>
+              <img
+                src="images/اكواب/اكواب ورق.jpg"
+                alt="طباعة اكواب ورقية مخصصة - خدمات الطباعة في الرياض"
+                class="menu-image"
+              />
+            </li>
+            <li class="menu-item">
+              <h2 class="name">الستيكرات</h2>
+              <p class="text">
+                ملصقات مخصصة بجودة طباعة استثنائية وتصاميم فريدة تناسب جميع
+                الاستخدامات. سواء كنت تبحث عن ملصقات تجارية أو شخصية، نقدم لك الحل
+                الأمثل
+              </p>
+              <img
+                src="images/ستيكرات/ستيكرات مطبوعة.jpg"
+                alt="طباعة ستيكرات لاصقة مخصصة - مطابع الرياض"
+                class="menu-image"
+              />
+            </li>
+            <li class="menu-item">
+              <h2 class="name">البوكسات</h2>
+              <p class="text">
+                اكتشف تشكيلتنا المتنوعة من العلب المصممة بجودة عالية وتناسب جميع
+                الاستخدامات. نقدم علب تغليف مبتكرة بأحجام وتصاميم مختلفة تناسب
+                احتياجاتك التجارية والشخصية
+              </p>
+              <img
+                src="images/بوكسات/بوكسات مطبوعة.jpg"
+                alt="طباعة بوكسات وتغليف احترافي - مطابع الرياض"
+                class="menu-image"
+              />
+            </li>
+            <li class="menu-item">
+              <h2 class="name">اللوحات</h2>
+              <p class="text">
+                لوحات فنية وإعلانية بجودة طباعة فاخرة وتصاميم مخصصة. مثالية
+                للديكور الداخلي أو الإعلانات التجارية، مع ضمان تفاصيل دقيقة
+                وألوان نابضة بالحياة
+              </p>
+              <img
+                src="images/لوحات/لوحات مكتب.jpg"
+                alt="لوحات مكتبية مطبوعة - خدمات الطباعة في الرياض"
+                class="menu-image"
+              />
+            </li>
+            <li class="menu-item">
+              <h2 class="name">الأكياس</h2>
+              <p class="text">
+                اكياس طباعة مميزة بجودة عالية وتصاميم جذابة تناسب جميع أنواع
+                المنتجات. نوفر أكياس ورقية وبلاستيكية تناسب احتياجاتك من التغليف
+                والترويج
+              </p>
+              <img
+                src="images/اكياس/اكياس مطبوعة.jpg"
+                alt="طباعة اكياس مخصصة - خدمات التغليف والطباعة"
+                class="menu-image"
+              />
+            </li>
+            <li class="menu-item">
+              <h2 class="name">الورقيات</h2>
+              <p class="text">
+                اوراق طباعة بجودة فائقة تناسب جميع احتياجات الطباعة والتغليف.
+                نوفر أنواع مختلفة من الأوراق بأحجام وتصاميم مخصصة لتلبية
+                متطلباتك
+              </p>
+              <img
+                src="images/مطبوعات/طباعة كروت شخصية.png"
+                alt="مطبوعات ورقية احترافية - مطابع الرياض"
+                class="menu-image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Service -->
+    </main>
 
     <footer class="footer-section">
       <div class="section-content">
