@@ -183,6 +183,46 @@ header .navbar {
   background: transparent;
 }
 
+/* National Day Button */
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.national-day-button {
+  display: inline-block;
+  background: linear-gradient(45deg, #ef4444, #dc2626);
+  color: var(--white-color);
+  padding: 15px 30px;
+  border-radius: var(--border-radius-m);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-m);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+  border: 2px solid transparent;
+  animation: pulse-glow 2s infinite;
+}
+
+.national-day-button:hover {
+  background: transparent;
+  color: #ef4444;
+  border-color: #ef4444;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+}
+
+@keyframes pulse-glow {
+  0% { 
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+  }
+  50% { 
+    box-shadow: 0 4px 25px rgba(239, 68, 68, 0.5);
+  }
+  100% { 
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+  }
+}
+
 .hero-section .hero-image-wrapper {
   max-width: 500px;
   margin-right: 30px;
@@ -672,6 +712,15 @@ header .navbar {
 
   .hero-section .hero-details .buttons {
     justify-content: center;
+  }
+  
+  .hero-buttons {
+    text-align: center;
+  }
+  
+  .national-day-button {
+    font-size: var(--font-size-s);
+    padding: 12px 20px;
   }
   .hero-section .hero-image-wrapper {
     max-width: 270px;
