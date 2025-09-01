@@ -33,6 +33,17 @@ filterButtons.forEach((button) =>
   button.addEventListener("click", filterCards)
 );
 
+// Populate card-keywords with alt text
+const galleryItems = document.querySelectorAll(".gallery-item");
+
+galleryItems.forEach(item => {
+    const img = item.querySelector(".gallery-image");
+    const keywordsDiv = item.querySelector(".card-keywords");
+    if (img && keywordsDiv) {
+        keywordsDiv.textContent = img.alt;
+    }
+});
+
 const swiper = new Swiper(".slider-wrapper", {
   loop: true,
   grabCursor: true,
