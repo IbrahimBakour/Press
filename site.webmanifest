@@ -1,0 +1,27 @@
+{
+  "name": "مطابع الرياض للطباعة والتغليف",
+  "short_name": "مطابع الرياض",
+  "description": "مطابع الرياض للطباعة والتغليف - خدمات طباعة احترافية عالية الجودة في الرياض",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/شعار2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/شعار2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "ar",
+  "dir": "rtl"
+}
