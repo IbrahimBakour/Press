@@ -880,3 +880,13 @@ header .navbar {
 .gallery-section .gallery-item:hover .card-keywords {
   opacity: 1; /* Show on hover */
 }
+
+
+#whatsapp #toggle2 {
+  bottom: 130px;
+  background-color: #007bff;
+}
+
+#whatsapp #toggle2:before {
+  background-color: #007bff;
+}
